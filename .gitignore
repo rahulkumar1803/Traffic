@@ -1,0 +1,9 @@
+﻿# Python cache
+__pycache__/
+*.pyc
+
+# Local raw datasets (keep local, do not push)
+data/raw/*.csv
+
+# Notebook checkpoints
+.ipynb_checkpoints/
