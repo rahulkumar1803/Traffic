@@ -1,0 +1,2 @@
+# Minimal dependencies for Vercel Python function.
+# This endpoint uses only Python standard library modules.

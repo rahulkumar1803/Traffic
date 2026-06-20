@@ -1,0 +1,21 @@
+# Exclude local/dev assets from Vercel deployment bundle
+.git/
+.pytest_cache/
+__pycache__/
+*.pyc
+
+# Streamlit app and data pipeline are not needed for the Vercel API stub
+app/
+src/
+scripts/
+tests/
+notebooks/
+data/
+
+# Local environment and docs extras
+.venv/
+venv/
+.env
+.env.*
+README.md
+requirements.txt
